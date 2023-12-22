@@ -6,12 +6,12 @@ class Nav extends Component {
     return (
       <nav>
         <ul>
-          <NavLink link="/about.html">About</NavLink>
-          <NavLink link="/contact.html">Contact</NavLink>
-          <NavLink link="/login.html">Log in</NavLink>
+          <NavLink link="/about">About</NavLink>
+          <NavLink link="/contact">Contact</NavLink>
+          <NavLink link="/login">Log in</NavLink>
         </ul>
       </nav>
-    );
+    );  
   }
 }
 
